@@ -1,0 +1,7 @@
+pip install igv
+
+Activate the invironment and install the following configuration
+
+jupyter serverextension enable --py igv --sys-prefix
+jupyter nbextension install --py igv --sys-prefix
+jupyter nbextension enable --py igv --sys-prefix
